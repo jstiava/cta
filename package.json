@@ -1,0 +1,33 @@
+{
+    "name": "@jeremystiava/cta",
+    "version": "1.0.0",
+    "description": "A NodeJS package for interacting with the CTA Bus and Train apis",
+    "license": "MIT",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup index.ts --format esm,cjs",
+        "types": "tsc --emitDeclarationOnly",
+        "copy-assets": "node scripts/copy-assets.mjs",
+        "prepare": "npm run build && npm run types && npm run copy-assets"
+    },
+    "devDependencies": {
+        "@types/papaparse": "^5.5.2",
+        "tsup": "^8.5.1",
+        "typescript": "^7.0.2"
+    },
+    "dependencies": {
+        "papaparse": "^5.5.4"
+    }
+}

@@ -1,0 +1,34 @@
+stop_id,naive_station_name,name,inbound_sequence,lines,segment,station_type,is_accessible,is_transfer,is_parking,parking_capacity,platforms,connected_buses,stop_lat,stop_lon,location_type,parent_station
+40890,O'Hare,O'Hare,1,blue,O'Hare,subway,TRUE,FALSE,FALSE,0,,,41.97766526,-87.90422307,,1
+40820,Rosemont,Rosemont,2,blue,O'Hare,elevated,TRUE,FALSE,TRUE,648,,,41.983507,-87.859388,,1
+40230,Cumberland,Cumberland,3,blue,Kennedy,elevated,TRUE,FALSE,TRUE,1633,,81W,41.984246,-87.838028,,1
+40750,Harlem,Harlem (Blue - O'Hare Branch),4,blue,Kennedy,elevated,TRUE,FALSE,FALSE,0,,"88, 90",41.98227,-87.8089,,1
+41280,Jefferson Park,Jefferson Park Transit Center,5,blue,Kennedy,elevated,TRUE,FALSE,FALSE,0,,"85A, 68, 92, 81, 56, 85, 91, 81W, 88",41.97023386,-87.76159401,,1
+41330,Montrose,Montrose (Blue),6,blue,Kennedy,elevated,FALSE,FALSE,FALSE,0,,"54A, 54, 78",41.96090105,-87.74290344,,2
+40550,Irving Park,Irving Park (Blue),7,blue,Kennedy,elevated,FALSE,FALSE,FALSE,0,,"54A, 80, 53",41.952925,-87.729229,,2
+41240,Addison,Addison (Blue),8,blue,Kennedy,elevated,TRUE,FALSE,FALSE,0,,152,41.94660372,-87.71845842,,1
+40060,Belmont,Belmont (Blue),9,blue,Milwaukee,subway,FALSE,FALSE,FALSE,0,,"82, 77",41.9391107,-87.71225212,,2
+41020,Logan Square,Logan Square,10,blue,Milwaukee,subway,TRUE,FALSE,FALSE,0,,"56, 93, 76",41.92953423,-87.70768815,,1
+40570,California,California (Blue),11,blue,Milwaukee,elevated,FALSE,FALSE,FALSE,0,,"94, 74, 56",41.92215831,-87.69724395,,2
+40670,Western,Western (Blue - O'Hare Branch),12,blue,Milwaukee,elevated,TRUE,FALSE,FALSE,0,,"49, 73, X49, 56",41.916157,-87.687364,,1
+40590,Damen,Damen (Blue),13,blue,Milwaukee,elevated,FALSE,FALSE,FALSE,0,,"50, 72, 56",41.90984523,-87.67754001,,2
+40320,Division,Division,14,blue,Milwaukee,elevated,FALSE,FALSE,FALSE,0,,"9, X9, 70, 56",41.903355,-87.666496,,2
+41410,Chicago,Chicago (Blue),15,blue,Milwaukee,subway,FALSE,FALSE,FALSE,0,,"66, 56",41.896075,-87.655214,,2
+40490,Grand,Grand (Blue),16,blue,Milwaukee,subway,FALSE,FALSE,FALSE,0,,"8, 65, 66, 56",41.891189,-87.647578,,2
+40380,Clark/Lake,Clark/Lake,17,blue,Dearborn Subway,subway,TRUE,TRUE,FALSE,0,,,41.885737,-87.630886,,1
+40370,Washington,Washington,18,blue,Dearborn Subway,subway,TRUE,TRUE,FALSE,0,,,41.883164,-87.62944,,2
+40790,Monroe,Monroe (Blue),19,blue,Dearborn Subway,subway,TRUE,FALSE,FALSE,0,,,41.880703,-87.629378,,2
+40070,Jackson,Jackson (Blue),20,blue,Dearborn Subway,subway,TRUE,TRUE,FALSE,0,,,41.878183,-87.629296,,1
+41340,LaSalle,LaSalle,21,blue,Congress,subway,FALSE,FALSE,FALSE,0,,"36, 24",41.875568,-87.631722,,2
+40430,Clinton,Clinton (Blue),22,blue,Congress,subway,FALSE,FALSE,FALSE,0,,"60, 37, 7, 157",41.875539,-87.640984,,2
+40350,UIC-Halsted,UIC-Halsted,23,blue,Congress,elevated,TRUE,FALSE,FALSE,0,,"8, 7, 60",41.875474,-87.649707,,1
+40470,Racine,Racine,24,blue,Congress,elevated,FALSE,FALSE,FALSE,0,,"7, 60",41.87592,-87.659458,,1
+40810,Illinois Medical District,Illinois Medical District,25,blue,Eisenhower,elevated,TRUE,FALSE,FALSE,0,,"7, 126",41.875706,-87.673932,,1
+40220,Western,Western (Blue - Forest Park Branch),26,blue,Eisenhower,elevated,FALSE,FALSE,FALSE,0,,"7, 49, X49",41.875478,-87.688436,,2
+40250,Kedzie-Homan,Kedzie-Homan,27,blue,Eisenhower,elevated,TRUE,FALSE,FALSE,0,,"7, 52",41.874341,-87.70604,,1
+40920,Pulaski,Pulaski (Blue),28,blue,Eisenhower,elevated,FALSE,FALSE,FALSE,0,,"7, 53",41.873797,-87.725663,,2
+40970,Cicero,Cicero (Blue),29,blue,Eisenhower,elevated,FALSE,FALSE,FALSE,0,,"54, 7, 57",41.871574,-87.745154,,2
+40010,Austin,Austin (Blue),30,blue,Eisenhower,elevated,FALSE,FALSE,FALSE,0,,91,41.870851,-87.776812,,2
+40180,Oak Park,Oak Park (Blue),31,blue,Eisenhower,elevated,FALSE,FALSE,FALSE,0,,,41.872108,-87.791602,,2
+40980,Harlem,Harlem (Blue - Forest Park Branch),32,blue,Eisenhower,elevated,FALSE,FALSE,TRUE,53,,,41.87349,-87.806961,,2
+40390,Forest Park,Forest Park,33,blue,Eisenhower,elevated,TRUE,FALSE,TRUE,644,,,41.874257,-87.817318,,1
