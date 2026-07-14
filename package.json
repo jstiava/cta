@@ -1,6 +1,6 @@
 {
     "name": "@stiava/cta",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A NodeJS package for interacting with the CTA Bus and Train apis",
     "license": "MIT",
     "type": "module",
