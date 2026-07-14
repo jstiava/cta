@@ -1,4 +1,7 @@
 import * as Papa from 'papaparse'
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import path from "node:path";
 
 
 export type CTATrainStopRaw = {
@@ -21,6 +24,8 @@ export type CTATrainStopRaw = {
     parent_station: string
 }
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 
 
 export class CTASystemGuide {
@@ -29,9 +34,14 @@ export class CTASystemGuide {
         return ['Red', 'Green', 'Pink', 'Blue', 'Purple', 'Orange', 'Brown']
     }
 
-    static readInTrainStationsByRoute(line : 'blue' | 'red' | 'brown' | 'yellow' | 'orange' | 'pink' | 'green') {
+    static readInTrainStationsByRoute(line: 'blue' | 'red' | 'brown' | 'yellow' | 'orange' | 'pink' | 'green') {
 
-        const result = Papa.parse(`./public/trains/${line}_stations.csv`, {
+        const csvFilePath = readFileSync(
+            path.join(__dirname, "public", "trains", `${line}_stations.csv`),
+            "utf8"
+        );
+
+        const result = Papa.parse(csvFilePath, {
             header: true,
             dynamicTyping: true,
             skipEmptyLines: true,
