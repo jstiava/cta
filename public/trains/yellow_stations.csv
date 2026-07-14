@@ -1,0 +1,4 @@
+stop_id,station_name,name,sequence,lines,segment,station_type,is_accessible,is_transfer,is_parking,parking_capacity,platforms,connected_buses,stop_lat,stop_lon,location_type,parent_station
+40140,Dempster-Skokie,Dempster-Skokie,1,yellow,Skokie Swift,,,,,,,,42.038951,-87.751919,,1
+40900,Howard,Howard,3,"purple, red, yellow",Skokie Swift,,,,,,,,42.019063,-87.672892,,1
+41680,Oakton-Skokie,Oakton-Skokie,2,yellow,Skokie Swift,,,,,,,,42.02624348,-87.74722084,,1

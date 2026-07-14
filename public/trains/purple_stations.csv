@@ -1,0 +1,26 @@
+stop_id,naive_station_name,name,inbound_sequence,lines,segment,station_type,is_accessible,is_transfer,is_parking,parking_capacity,platforms,connected_buses,stop_lat,stop_lon,location_type,parent_station
+40730,Washington/Wells,Washington/Wells,24,"brown, orange, pink, purple",Main Loop,elevated,TRUE,TRUE,FALSE,0,"30141, 30142",,41.882695,-87.63378,,1
+40040,Quincy,Quincy,23,"brown, purple",Main Loop,elevated,TRUE,TRUE,FALSE,0,"30007, 30008",,41.878723,-87.63374,,1
+40160,LaSalle/Van Buren,LaSalle/Van Buren,22,"brown, orange, pink, purple",Main Loop,elevated,FALSE,TRUE,FALSE,0,"30030, 30031",,41.8768,-87.631739,,2
+40850,H W Library,Harold Washington Library-State/Van Buren,21,"brown, orange, pink, purple",Main Loop,elevated,TRUE,TRUE,FALSE,0,"30165, 30166",,41.876862,-87.628196,,1
+40680,Adams/Wabash,Adams/Wabash,20,"brown, green, orange, pink, purple",Main Loop,elevated,FALSE,TRUE,FALSE,0,"30131, 30132",,41.879507,-87.626037,,2
+41700,Washington/Wabash,Washington/Wabash,19,"brown, green, orange, pink, purple",Main Loop,elevated,TRUE,TRUE,FALSE,0,"30383, 30384",,41.88322,-87.626189,,1
+40380,Clark/Lake,Clark/Lake,18,"blue, brown, green, orange, pink, purple",Main Loop,elevated,TRUE,TRUE,FALSE,0,"30374, 30375, 30074, 30075",,41.885737,-87.630886,,1
+40460,Merchandise Mart,Merchandise Mart (Brown/Purple),17,"brown, purple",Near North Side,elevated,TRUE,TRUE,FALSE,0,"30090, 30091",,41.888969,-87.633924,,1
+40710,Chicago,Chicago (Brown/Purple),16,"brown, purple",Near North Side,elevated,TRUE,TRUE,FALSE,0,"30137, 30138",,41.89681,-87.635924,,1
+40800,Sedgwick,Sedgwick (Brown/Purple),15,"brown, purple",Near North Side,elevated,TRUE,TRUE,FALSE,0,"30155, 30156",,41.910409,-87.639302,,1
+40660,Armitage,Armitage (Brown/Purple),14,"brown, purple",Lincoln Park,elevated,TRUE,TRUE,FALSE,0,"30127, 30128",,41.918217,-87.652644,,1
+41220,Fullerton,Fullerton,13,"brown, purple, red",Lincoln Park,elevated,TRUE,TRUE,FALSE,0,"30233, 30234, 30235, 30236",,41.92530037,-87.65286844,,1
+40530,Diversey,Diversey (Brown/Purple),12,"brown, purple",Lincoln Park,elevated,TRUE,TRUE,FALSE,0,"30103, 30104",,41.932732,-87.653131,,1
+41210,Wellington,Wellington (Brown/Purple),11,"brown, purple",Lincoln Park,elevated,TRUE,TRUE,FALSE,0,"30231, 30232",,41.936033,-87.653266,,1
+41320,Belmont,Belmont (Red/Brown/Purple),10,"brown, purple, red",Lincoln Park,elevated,TRUE,TRUE,FALSE,0,"30255, 30256, 30257, 30258",,41.939751,-87.65338,,1
+40540,Wilson,Wilson,9,"red, purple",North Elevated,elevated,TRUE,TRUE,FALSE,0,"30105, 30106, 30385, 30386",,41.96548157,-87.65792581,,1
+40900,Howard,Howard,8,"purple, red, yellow",North Elevated,elevated,TRUE,TRUE,TRUE,592,"30173, 30174, 30175, 30176",,42.019063,-87.672892,,1
+40840,South Blvd,South Boulevard,7,purple,Evanston,elevated,FALSE,FALSE,FALSE,0,"30163, 30164",,42.027612,-87.678329,,2
+40270,Main,Main,6,purple,Evanston,elevated,FALSE,FALSE,FALSE,0,"30052, 30053",,42.033456,-87.679538,,2
+40050,Davis,Davis,5,purple,Evanston,elevated,TRUE,FALSE,FALSE,0,"30010, 30011",,42.04771,-87.683543,,1
+40690,Dempster,Dempster,5,purple,Evanston,elevated,FALSE,FALSE,FALSE,0,"30133, 30134",,42.041655,-87.681602,,2
+40520,Foster,Foster,4,purple,Evanston,elevated,FALSE,FALSE,FALSE,0,"30101, 30102",,42.05416,-87.68356,,2
+40400,Noyes,Noyes,3,purple,Evanston,elevated,FALSE,FALSE,FALSE,0,"30078, 30079",,42.058282,-87.683337,,2
+41250,Central,Central (Purple),2,purple,Evanston,elevated,FALSE,FALSE,FALSE,0,"30241, 30242",,42.063987,-87.685617,,2
+41050,Linden,Linden,1,purple,Evanston,elevated,TRUE,FALSE,TRUE,441,"30203, 30204",,42.073153,-87.69073,,1

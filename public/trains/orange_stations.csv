@@ -1,0 +1,16 @@
+stop_id,naive_station_name,name,inbound_sequence,lines,segment,station_type,is_accessible,is_transfer,is_parking,parking_capacity,platforms,connected_buses,stop_lat,stop_lon,location_type,parent_station
+40930,Midway,Midway,1,orange,Orange,elevated,TRUE,FALSE,TRUE,299,"30181, 30182",,41.78661,-87.737875,,1
+40960,Pulaski,Pulaski (Orange),2,orange,Orange,elevated,TRUE,FALSE,TRUE,390,"30185, 30186",,41.799756,-87.724493,,1
+41150,Kedzie,Kedzie (Orange),3,orange,Orange,elevated,TRUE,FALSE,TRUE,157,"30219, 30220",,41.804236,-87.704406,,1
+40310,Western,Western (Orange),4,orange,Orange,elevated,TRUE,FALSE,TRUE,200,"30060, 30061",,41.804546,-87.684019,,1
+40120,35th/Archer,35th/Archer,5,orange,Orange,elevated,TRUE,FALSE,TRUE,69,"30022, 30023",,41.829353,-87.680622,,1
+41060,Ashland,Ashland (Orange),6,orange,Orange,elevated,TRUE,FALSE,FALSE,0,"30205, 30206",,41.839234,-87.665317,,1
+41130,Halsted,Halsted (Orange),7,orange,Orange,elevated,TRUE,FALSE,TRUE,31,"30215, 30216",,41.84678,-87.648088,,1
+41400,Roosevelt,Roosevelt,8,"green, orange, red",Near South Side,elevated,TRUE,TRUE,FALSE,0,"30080, 30081, 30269, 30270",,41.86737853,-87.62703141,,1
+40850,H W Library,Harold Washington Library-State/Van Buren,9,"brown, orange, pink, purple",Main Loop,elevated,TRUE,TRUE,FALSE,0,"30165, 30166",,41.876862,-87.628196,,1
+40160,LaSalle/Van Buren,LaSalle/Van Buren,10,"brown, orange, pink, purple",Main Loop,elevated,FALSE,TRUE,FALSE,0,"30030, 30031",,41.8768,-87.631739,,2
+40040,Quincy,Quincy,11,"brown, orange, pink, purple",Main Loop,elevated,TRUE,TRUE,FALSE,0,"30007, 30008",,41.878723,-87.63374,,1
+40730,Washington/Wells,Washington/Wells,12,"brown, orange, pink, purple",Main Loop,elevated,TRUE,TRUE,FALSE,0,"30141, 30142",,41.882695,-87.63378,,1
+40380,Clark/Lake,Clark/Lake,13,"blue, brown, green, orange, pink, purple",Main Loop,elevated,TRUE,TRUE,FALSE,0,"30374, 30375, 30074, 30075",,41.885737,-87.630886,,1
+41700,Washington/Wabash,Washington/Wabash,14,"brown, green, orange, pink, purple",Main Loop,elevated,TRUE,TRUE,FALSE,0,"30383, 30384",,41.88322,-87.626189,,1
+40680,Adams/Wabash,Adams/Wabash,15,"brown, green, orange, pink, purple",Main Loop,elevated,FALSE,TRUE,FALSE,0,"30131, 30132",,41.879507,-87.626037,,2

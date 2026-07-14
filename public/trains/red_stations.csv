@@ -1,0 +1,34 @@
+stop_id,naive_station_name,name,inbound_sequence,lines,segment,station_type,is_accessible,is_transfer,is_parking,parking_capacity,platforms,connected_buses,stop_lat,stop_lon,location_type,parent_station
+40900,Howard,Howard,1,"purple, red, yellow",North Elevated,elevated,TRUE,TRUE,TRUE,592,"30173, 30174, 30175, 30176",,42.019063,-87.672892,,1
+41190,Jarvis,Jarvis,2,red,North Elevated,elevated,FALSE,FALSE,FALSE,0,"30227, 30228",,42.01602042,-87.66925713,,2
+40100,Morse,Morse,3,red,North Elevated,elevated,FALSE,FALSE,FALSE,0,"30020, 30021",,42.008362,-87.665909,,2
+41300,Loyola,Loyola,4,red,North Elevated,elevated,TRUE,FALSE,FALSE,0,"30251, 30252",,42.001073,-87.661061,,1
+40760,Granville,Granville,5,red,North Elevated,elevated,TRUE,FALSE,FALSE,0,"30147, 30148",,41.99448301,-87.65918663,,1
+40880,Thorndale,Thorndale,6,red,North Elevated,elevated,FALSE,FALSE,FALSE,0,"30169, 30170",,41.99009909,-87.6590685,,2
+41380,Bryn Mawr,Bryn Mawr,7,red,North Elevated,elevated,TRUE,FALSE,FALSE,0,"30267, 30268",,41.983504,-87.65884,,1
+40340,Berwyn,Berwyn,8,red,North Elevated,elevated,TRUE,FALSE,FALSE,0,"30066, 30067",,41.977984,-87.658668,,1
+41200,Argyle,Argyle,9,red,North Elevated,elevated,TRUE,FALSE,FALSE,0,"30229, 30230",,41.97332205,-87.65852795,,1
+40770,Lawrence,Lawrence,10,red,North Elevated,elevated,TRUE,FALSE,FALSE,0,"30149, 30150",,41.96897629,-87.65848694,,1
+40540,Wilson,Wilson,11,"red, purple",North Elevated,elevated,TRUE,TRUE,FALSE,0,"30105, 30106, 30385, 30386",,41.96548157,-87.65792581,,1
+40080,Sheridan,Sheridan,12,red,North Elevated,elevated,FALSE,FALSE,FALSE,0,"30016, 30017",,41.95390484,-87.65466141,,2
+41420,Addison,Addison (Red),13,red,North Elevated,elevated,TRUE,FALSE,FALSE,0,"30273, 30274",,41.94731617,-87.6536241,,1
+41320,Belmont,Belmont (Red/Brown/Purple),14,"brown, purple, red",Lincoln Park,elevated,TRUE,TRUE,FALSE,0,"30255, 30256, 30257, 30258",,41.939751,-87.65338,,1
+41220,Fullerton,Fullerton,15,"brown, purple, red",Lincoln Park,elevated,TRUE,TRUE,FALSE,0,"30233, 30234, 30235, 30236",,41.92530037,-87.65286844,,1
+40650,North/Clybourn,North/Clybourn,16,red,Lincoln Park,subway,TRUE,FALSE,FALSE,0,"30125, 30126",,41.910655,-87.649177,,2
+40630,Clark/Division,Clark/Division,17,red,State St Subway,subway,TRUE,FALSE,FALSE,0,"30121, 30122",,41.90392,-87.631412,,1
+41450,Chicago,Chicago (Red),18,red,State St Subway,subway,TRUE,FALSE,FALSE,0,"30279, 30280",,41.896671,-87.628176,,1
+40330,Grand,Grand (Red),19,red,State St Subway,subway,TRUE,FALSE,FALSE,0,"30064, 30065",,41.891665,-87.628021,,1
+41660,Lake,Lake (Subway),20,red,State St Subway,subway,TRUE,TRUE,FALSE,0,"30289, 30290",,41.884809,-87.627813,,1
+41090,Monroe,Monroe (Red),21,red,State St Subway,subway,FALSE,FALSE,FALSE,0,"30211, 30212",,41.880745,-87.627696,,2
+40560,Jackson,Jackson (Red),22,red,State St Subway,subway,TRUE,FALSE,FALSE,0,"30109, 30110",,41.878153,-87.627596,,1
+41490,Harrison,Harrison,23,red,State St Subway,subway,FALSE,FALSE,FALSE,0,"30285, 30286",,41.874039,-87.627479,,2
+41400,Roosevelt,Roosevelt,24,"green, orange, red",Near South Side,subway,TRUE,TRUE,FALSE,0,"30080, 30081, 30269, 30270",,41.86737853,-87.62703141,,1
+41000,Cermak-Chinatown,Cermak-Chinatown,25,red,Near South Side,elevated,TRUE,FALSE,FALSE,0,"30193, 30194",,41.853206,-87.630968,,1
+40190,Sox-35th,Sox-35th,26,red,Dan Ryan,elevated,TRUE,FALSE,FALSE,0,"30036, 30037",,41.831191,-87.630636,,1
+41230,47th,47th (Red),27,red,Dan Ryan,elevated,TRUE,FALSE,FALSE,0,"30237, 30238",,41.810318,-87.63094,,1
+41170,Garfield,Garfield (Red),28,red,Dan Ryan,elevated,TRUE,FALSE,FALSE,0,"30223, 30224",,41.79542,-87.631157,,1
+40910,63rd,63rd,29,red,Dan Ryan,elevated,TRUE,FALSE,FALSE,0,"30177, 30178",,41.780536,-87.630952,,1
+40990,69th,69th,30,red,Dan Ryan,elevated,TRUE,FALSE,FALSE,0,"30191, 30192",,41.768367,-87.625724,,1
+40240,79th,79th,31,red,Dan Ryan,elevated,TRUE,FALSE,FALSE,0,"30046, 30047",,41.750419,-87.625112,,1
+41430,87th,87th,32,red,Dan Ryan,elevated,TRUE,FALSE,FALSE,0,"30275, 30276",,41.735372,-87.624717,,1
+40450,95th/Dan Ryan,95th/Dan Ryan,33,red,Dan Ryan,elevated,TRUE,FALSE,FALSE,0,"30088, 30089",,41.722377,-87.624342,,1

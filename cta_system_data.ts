@@ -23,7 +23,7 @@ export type CTATrainStopRaw = {
 
 
 
-class CTASystemGuide {
+export class CTASystemGuide {
 
     static getTrainLines() {
         return ['Red', 'Green', 'Pink', 'Blue', 'Purple', 'Orange', 'Brown']
