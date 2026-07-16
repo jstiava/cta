@@ -35,7 +35,7 @@ export class CTASystemGuide {
     }
 
     static readInTrainStationsByRoute(line: 'blue' | 'red' | 'brown' | 'yellow' | 'orange' | 'pink' | 'green') {
-
+        
         const csvFilePath = readFileSync(
             path.join(__dirname, "public", "trains", `${line}_stations.csv`),
             "utf8"
