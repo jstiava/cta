@@ -1,20 +1,20 @@
-# @jeremystiava/cta
+# @stiava/cta - Chicago Transit Application SDK
 
-A modern TypeScript client for the **Chicago Transit Authority (CTA)** Bus Tracker and Train Tracker APIs.
+A modern TypeScript client for the **Chicago Transit Authority (CTA)** Bus Tracker and Train Tracker APIs. 
 
 Designed for Node.js, Next.js, and modern JavaScript applications, this package provides a simple, strongly typed interface for accessing real-time CTA transit data.
 
 ---
 
-## Features
+## Key Features
 
-- 🚆 Real-time train arrival predictions
-- 🚌 Real-time bus arrival predictions
-- 📍 Retrieve bus routes and stops
-- 🚉 Retrieve train stations
-- 📡 Simple Promise-based API
+- 🚌 CTA Bus Tracker client
+- 🚆 CTA Train Tracker client
+- 📍 CTA systems routes, map files, and stops
+- 🚲 Divvy stations data and realtime rack counts.
+- 🚘 Guide to Chicago roads. Interstates, primary roads, awkward turns, and one-way neighborhoods.
+- 🅿️ Chicago Parking Guide: Paid streets, residential permits, and enforcement data(ProPublica).
 - 📝 Full TypeScript support
-- ⚡ Lightweight with zero runtime dependencies
 - 🌐 Works in Node.js and modern web frameworks
 
 ---
@@ -22,7 +22,7 @@ Designed for Node.js, Next.js, and modern JavaScript applications, this package 
 ## Installation
 
 ```bash
-npm install @jeremystiava/cta
+npm install @stiava/cta
 ```
 
 ---
@@ -30,7 +30,7 @@ npm install @jeremystiava/cta
 ## Getting Started
 
 ```ts
-import { CTA } from "@jeremystiava/cta";
+import { CTA } from "@stiava/cta";
 
 // Use the CTA apis.
 const cta_buses = new CTABusService(process.env.CTA_BUS_API_KEY!);
