@@ -33,7 +33,7 @@ type TrainRouteLocationsResponse = {
         route: {
             "@name": string,
             train: CTATrain[]
-        }[]
+    }[]
     }
 }
 
@@ -203,5 +203,16 @@ export class CTABusService {
 
         return await fetch(`${CTA_BUS_BASE_URL}/bustime/api/v3/getpredictions?${query}`).then(res => res.json()).then(data => data)
     }
+
+     async getVehicles(routeId: string) {
+        const query = this.buildQuery({
+            rt: routeId,
+            tmres: 's',
+            format: 'json'
+        })
+
+        return await fetch(`${CTA_BUS_BASE_URL}/bustime/api/v3/getvehicles?${query}`).then(res => res.json()).then(data => data)
+    }
+
 
 }

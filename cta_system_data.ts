@@ -4,6 +4,11 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 
+export const CTAColors = {
+    'blue_line': "#00a1de",
+    
+}
+
 export type CTATrainStopRaw = {
     stop_id: string,
     naive_station_name: string,
