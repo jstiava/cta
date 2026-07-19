@@ -204,9 +204,19 @@ export class CTABusService {
         return await fetch(`${CTA_BUS_BASE_URL}/bustime/api/v3/getpredictions?${query}`).then(res => res.json()).then(data => data)
     }
 
-     async getVehicles(routeId: string) {
+     async getVehiclesByRoutes(routeIds: string[]) {
         const query = this.buildQuery({
-            rt: routeId,
+            rt: routeIds,
+            tmres: 's',
+            format: 'json'
+        })
+
+        return await fetch(`${CTA_BUS_BASE_URL}/bustime/api/v3/getvehicles?${query}`).then(res => res.json()).then(data => data)
+    }
+
+     async getVehiclesByIds(vehicleIds: string[]) {
+        const query = this.buildQuery({
+            vid: vehicleIds,
             tmres: 's',
             format: 'json'
         })

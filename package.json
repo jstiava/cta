@@ -21,12 +21,17 @@
         "build": "tsup index.ts --format esm,cjs",
         "types": "tsc --emitDeclarationOnly",
         "copy-assets": "node scripts/copy-assets.mjs",
-        "prepare": "npm run build && npm run types && npm run copy-assets"
+        "prepare": "npm run build && npm run types && npm run copy-assets",
+        "test": "vitest",
+        "test:run": "vitest run",
+        "test:coverage": "vitest run --coverage"
     },
     "devDependencies": {
         "@types/papaparse": "^5.5.2",
+        "@vitest/coverage-v8": "^4.1.10",
         "tsup": "^8.5.1",
-        "typescript": "^7.0.2"
+        "typescript": "^7.0.2",
+        "vitest": "^4.1.10"
     },
     "dependencies": {
         "papaparse": "^5.5.4"
